@@ -61,10 +61,10 @@ String particleAudioFeed = "";
  
 //Enable/Disable MQTT functionality 
 bool mqttEnabled = true;
-char* mqttHost = "io.adafruit.com";
+char* mqttHost = "";
 int mqttPort = 1883;
-String mqttUsername = "thetestgame";
-String mqttPassword = "9b95a6a0d4849520af14a250dd2b8f451f246eae";
+String mqttUsername = "";
+String mqttPassword = "";
 //MQTT feeds require mqttEnable to be set to true
 String mqttPowerFeed = "";
 String mqttAudioFeed = "";
